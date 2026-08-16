@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  min-height: 200vh;
+  width: 100vw;
+}
+
+.main {
+  width: 67vw;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.main h1 {
+  color: var(--highlight-green);
+  text-align: left;
+}
+
+.cards-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;                             
+  margin-top: 30px;
+}
