@@ -1,0 +1,32 @@
+.item-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50px 1fr 100px 30px;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+
+.item-row p {
+  margin: 0;
+}
+
+.item-count, .item-title {
+  text-align: left;
+}
+
+.item-price {
+  text-align: right;
+}
+
+.item-delete {
+  text-align: center;
+  color: var(--danger-red);
+  cursor: pointer;
+  user-select: none;
+}
+
+.item-delete:hover {
+  color: #ff5252;
+}
