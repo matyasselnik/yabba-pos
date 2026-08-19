@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Sidebar.css"
 import { OrderItem } from "./OrderItem"
 
-export function Sidebar({ items = [], onRemoveItem, onClearOrder }) {
+export function Sidebar({ items = [], onRemoveItem, onClearOrder, onToggleQR }) {
   const [cashGiven, setCashGiven] = useState("");
 
   const totalSum = items.reduce((sum, item) => sum + item.price * item.count, 0);
@@ -31,7 +31,7 @@ export function Sidebar({ items = [], onRemoveItem, onClearOrder }) {
         <p className="return">K vrácení: <span className="return-price">{change} Kč</span></p>
         <div className="btn-row">
           <input className="cash-btn" type="number" placeholder="Hotovost" value={cashGiven} onChange={(e) => setCashGiven(e.target.value)} />
-          <p className="QR-btn">QR platba</p>
+          <p className="QR-btn" onClick={onToggleQR}>QR platba</p>
         </div>
         <p className="done-btn" onClick={onClearOrder}>Zaplaceno</p>
       </div>
