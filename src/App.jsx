@@ -4,22 +4,28 @@ import {Sidebar} from "./componests/Sidebar.jsx"
 import { ProductCard } from "./componests/ProductCard.jsx";
 
 const PRODUCTS = [
+  { id: 0, title: "Kelímek", price: 50, img: "/img/Kelimek.png" },
   { id: 1, title: "Plzeň", price: 50, img: "/img/Plzen.png" },
-  { id: 2, title: "Kofola 0,5", price: 50, img: "/img/Kofola05.png" },
-  { id: 3, title: "Kofola 0,3", price: 7, img: "/img/Kofola03.png" },
-  { id: 4, title: "Rajec perlivý", price: 25, img: "/img/RajecPerlivy.png" },
-  { id: 5, title: "Rajec neperlivý", price: 35, img: "/img/RajecNeperlivy.png" },
-  { id: 6, title: "Jupík", price: 35, img: "/img/Jupik.png" },
-  { id: 7, title: "Guláš", price: 100, img: "/img/Gulas.png" },
-  { id: 8, title: "Halušky", price: 100, img: "/img/Halusky.png" },
-  { id: 10, title: "Gin & Tonic", price: 45, img: "/img/GinTonic.png" },
-  { id: 11, title: "Skinny Bitch", price: 50, img: "/img/SkinnyBitch.png" },
-  { id: 13, title: "CubaLibre", price: 55, img: "/img/CubaLibre.png" },
-  { id: 14, title: "Rum", price: 110, img: "/img/Rum.png" },
-  { id: 15, title: "Vodka", price: 95, img: "/img/Vodka.png" },
-  { id: 16, title: "Zelená", price: 165, img: "/img/Zelena.png" },
-  { id: 17, title: "Víno bíle", price: 55, img: "/img/VinoBile.png" },
-  { id: 18, title: "Proseco", price: 40, img: "/img/Prosecco.png" }
+  { id: 2, title: "Kofola 0,5", price: 40, img: "/img/Kofola05.png" },
+  { id: 3, title: "Kofola 0,3", price: 25, img: "/img/Kofola03.png" },
+  { id: 4, title: "Birell Pomelo", price: 25, img: "/img/Birell.png" },
+  { id: 5, title: "Rajec perlivý", price: 30, img: "/img/RajecPerlivy.png" },
+  { id: 6, title: "Jupík Sparky", price: 25, img: "/img/Jupik_fun.png" },
+  { id: 7, title: "Jupík", price: 30, img: "/img/Jupik.png" },
+  { id: 8, title: "Koruní", price: 25, img: "/img/Koruni.png" },
+  { id: 9, title: "Guláš", price: 100, img: "/img/Gulas.png" },
+  { id: 10, title: "Halušky", price: 60, img: "/img/Halusky.png" },
+  { id: 11, title: "Gin & Tonic", price: 80, img: "/img/GinTonic.png" },
+  { id: 12, title: "Skinny Bitch", price: 80, img: "/img/SkinnyBitch.png" },
+  { id: 13, title: "CubaLibre", price: 80, img: "/img/CubaLibre.png" },
+  { id: 14, title: "Bumbu", price: 70, img: "/img/Bumbu.png" },
+  { id: 15, title: "Rum", price: 40, img: "/img/Rum.png" },
+  { id: 16, title: "Vodka", price: 40, img: "/img/Vodka.png" },
+  { id: 17, title: "Zelená", price: 30, img: "/img/Zelena.png" },
+  { id: 18, title: "Víno bíle 0,2", price: 40, img: "/img/VinoBile.png" },
+  { id: 19, title: "Víno bíle 0,7", price: 140, img: "/img/Vino_Flaska.png" },
+  { id: 20, title: "Proseco 0,2", price: 40, img: "/img/Prosecco.png" },
+  { id: 21, title: "Proseco 0,7", price: 140, img: "/img/Prosecco_flaska.png" }
 ];
 
 export default function App() {
